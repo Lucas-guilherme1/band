@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e49292;
+    font-family: 'cinzel';
+    
+}
+
+.header{
+    background-color: #4e1f35ab;
+    /* width: 100%; */
+}
+
+/* começo dos cards direcionados a banda */
+
+h1{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    
+}
+p{
+    color: #fff;
+}
+
+
+/* COMEÇO DO RESPOSIVO PARA PC AQUI     2000 PX  */
+
+@media screen and (max-width:2000px) {
+    
+    .header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .navbar{
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 5rem;
+    
+    }
+
+    .h1{
+        color: aliceblue;
+        font-size: 80px;
+        padding-top: 30px;
+        font-family: 'Cinzel';   
+        cursor: pointer;
+    
+    }
+    button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'cinzel';
+    font-size: 20px;
+    font-weight: 400;
+    color: aliceblue;
+    background-color: #4e1f3500;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+    button:hover{
+        background-color: #723a547e;
+    }
+
+    a{
+    text-decoration: none;
+    font-family: 'cinzel';
+    color: aliceblue;
+}
+
+
+.mae{
+    display: flex;
+    padding: 70px;
+    justify-content: center;
+    gap: 150px;
+}
+
+
+.back{
+
+    border-radius: 30px;
+    margin-top: 100px;
+    width: 550px;
+    height: 420px;
+    background-color: #00000046;
+    /* margin-right: 40px; */
+
+}
+
+.bkBanda{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.bkAluno{
+
+    margin-top: 10px;
+    width: 500px;
+    display: flex;
+    padding-left: 10px;
+    border-radius: 30px;
+    align-items: center;
+    /* background-color: #f1137b28; */
+}
+
+.imgAluno{
+    margin: 10px;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.imgBanda{
+
+    border-radius: 30px;
+    margin-top: 30px;
+    width: 420px;
+    height: 220px;
+}
+
+
+}
+
+
+
+/* FINAL DO RESPOSIVO PARA PC AQUI     2000 PX  */
+
+
+/* COMEÇO DO RESPOSIVO PARA NOTEBOOK AQUI     1200 PX  */
+
+
+@media screen and (max-width:1200px) {
+
+    .header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .navbar{
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 40px;
+    
+    }
+
+    .h1{
+        color: aliceblue;
+        font-size: 60px;
+        font-family: 'Cinzel';   
+        cursor: pointer;
+    
+    }
+    button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'cinzel';
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 20px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+    button:hover{
+        background-color: #723a547e;
+}
+
+    a{
+    text-decoration: none;
+    font-family: 'cinzel';
+    color: aliceblue;
+}
+
+
+.mae{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+
+.back{
+
+    border-radius: 30px;
+    margin-top: 100px;
+    width: 440px;
+    height: 390px;
+    background-color: #00000046;
+
+}
+
+.bkBanda{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.bkAluno{
+
+    margin-top: 10px;
+    /* width: 600px; */
+    display: flex;
+    padding-left: 10px;
+    border-radius: 30px;
+    align-items: center;
+    /* background-color: #f1137b28; */
+}
+
+.imgAluno{
+    margin: 10px;
+    border-radius: 100px;
+    
+
+    width: 50px;
+    height: 50px;
+
+}
+
+.imgBanda{
+
+    border-radius: 30px;
+    margin-top: 30px;
+    width: 380px;
+    height: 200px;
+}
+
+}
+
+
+/* FINAL DO RESPOSIVO PARA NOTEBOOK AQUI     1200 PX  */
+
+
+
+/* COMEÇO DO RESPOSIVO PARA TABLETE AQUI     800 PX  */
+
+
+
+@media screen and (max-width:1000px) {
+
+
+    .header{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .navbar{
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 40px;
+    
+    }
+
+    .h1{
+        color: aliceblue;
+        font-size: 60px;
+        font-family: 'Cinzel';   
+        cursor: pointer;
+    
+    }
+    button{
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'cinzel';
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 20px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+    button:hover{
+    background-color: #2a425e;
+}
+
+    a{
+    text-decoration: none;
+    font-family: 'cinzel';
+    color: aliceblue;
+}
+
+
+.mae{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+
+.back{
+
+    border-radius: 30px;
+    margin-top: 100px;
+    width: 340px;
+    height: 380px;
+    background-color: #00000046;
+
+}
+
+.bkBanda{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.bkAluno{
+
+    margin-top: 10px;
+    /* width: 600px; */
+    display: flex;
+    padding-left: 10px;
+    border-radius: 30px;
+    align-items: center;
+    /* background-color: #f1137b28; */
+}
+
+.imgAluno{
+    margin: 10px;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+
+}
+
+.imgBanda{
+
+    border-radius: 30px;
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+
+
+}
+
+
+/* FINAL DO RESPOSIVO PARA TABLETE AQUI     800 PX  */
+
+
+/* COMEÇO DO RESPOSIVO PARA CELULAR AQUI     600 PX  */
+
+@media screen and (max-width:680px) {
+
+    .header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .navbar{
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 5rem;
+    
+    }
+
+    .h1{
+        color: aliceblue;
+        font-size: 20px;
+        padding-top: 30px;
+        font-family: 'Cinzel';   
+        cursor: pointer;
+    
+    }
+    button{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'cinzel';
+    font-size: 20px;
+    font-weight: 400;
+    color: aliceblue;
+    background-color: #4e1f3500;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+    button:hover{
+        background-color: #723a547e;
+    }
+
+    a{
+    text-decoration: none;
+    font-family: 'cinzel';
+    color: aliceblue;
+}
+
+.mae{
+   display: block;
+   
+}
+
+.back{
+
+    border-radius: 30px;
+    margin-top: 100px;
+    width: 550px;
+    height: 420px;
+    background-color: #00000046;
+    /* margin-right: 40px; */
+
+}
+
+.bkBanda{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.bkAluno{
+
+    margin-top: 10px;
+    width: 500px;
+    display: flex;
+    padding-left: 10px;
+    border-radius: 30px;
+    align-items: center;
+    /* background-color: #f1137b28; */
+}
+
+.imgAluno{
+    margin: 10px;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.imgBanda{
+
+    border-radius: 30px;
+    margin-top: 30px;
+    width: 420px;
+    height: 220px;
+}
+
+
+
+}
+
+
+/* FINAL DO RESPOSIVO PARA CELULAR AQUI     600 PX  */
